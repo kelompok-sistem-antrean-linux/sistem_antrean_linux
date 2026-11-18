@@ -1,0 +1,1 @@
+b21bd4e6099995e5a9f802e82befe124afaaa662e1b606c79f65774c472ca091  output/laporan.txt
