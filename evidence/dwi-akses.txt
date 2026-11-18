@@ -1,0 +1,3 @@
+=== UJI AKSES GUEST USER ===
+touch: setting times of '/home/dwi/proyek-so-5b/queue/waiting/ilegal.job': Permission denied
+exit guest: 1

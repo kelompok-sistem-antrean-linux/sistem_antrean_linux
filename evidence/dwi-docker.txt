@@ -1,0 +1,10 @@
+=== UJI DOCKER READ-ONLY ===
+docker: Error response from daemon: invalid mount config for type "bind": bind source path does not exist: /home/dwi/proyek-so-5b/output
+
+Run 'docker run --help' for more information
+exit docker baca: 125
+docker: Error response from daemon: invalid mount config for type "bind": bind source path does not exist: /home/dwi/proyek-so-5b/output
+
+Run 'docker run --help' for more information
+exit docker tulis: 125
+Files evidence/dwi-checksum-sebelum.txt and evidence/dwi-checksum-sesudah.txt are identical
