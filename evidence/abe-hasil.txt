@@ -1,0 +1,11 @@
+/home/aghnabiwalaki/proyek-so-5b/queue/waiting/JOB_20261118_221229_462530722.job: line 5: 22:12:29: command not found
+[FIFO] Memproses antrean: JOB_20261118_221229_462530722 (hitung_prima.sh, param=2)
+/home/aghnabiwalaki/proyek-so-5b/queue/waiting/JOB_20261118_221229_502731347.job: line 5: 22:12:29: command not found
+[FIFO] Memproses antrean: JOB_20261118_221229_502731347 (simulasi_lama.sh, param=10)
+========== STATUS SELURUH JOB ==========
+JOB_ID                         JOB_NAME          PARAM  STATUS   PID  EXIT_CODE  START_TIME           END_TIME
+JOB_20261118_221229_462530722  hitung_prima.sh   2      WAITING  -    -          2026-11-18 22:12:29  -
+JOB_20261118_221229_502731347  simulasi_lama.sh  10     WAITING  -    -          2026-11-18 22:12:29  -
+JOB_20261118_221229_462530722  hitung_prima.sh   2      DONE     -    0          2026-11-18 22:12:29  2026-11-18 22:12:31
+JOB_20261118_221229_502731347  simulasi_lama.sh  10     DONE     -    0          2026-11-18 22:12:31  2026-11-18 22:12:41
+[BERSIH] Tidak ada proses zombie/nyangkut.
