@@ -1,0 +1,23 @@
+BUKTI PENGUJIAN POSITIF - ANGGOTA 2
+Sistem Antrean Linux
+
+1. Pengujian FIFO
+   Tiga pekerjaan dimasukkan ke antrean.
+   Worker menjalankan pekerjaan sesuai urutan masuk.
+   Hasil: LULUS.
+
+2. Pengujian integrasi worker dan sistem status
+   Tiga pekerjaan berhasil ditambahkan ke antrean.
+   Status pekerjaan berubah dari waiting menjadi running,
+   kemudian success.
+   Urutan pemrosesan: A, B, C.
+   Antrean kosong setelah seluruh pekerjaan selesai.
+   Hasil: LULUS.
+
+KESIMPULAN
+Pengujian menunjukkan bahwa antrean memproses pekerjaan
+sesuai prinsip FIFO dan status pekerjaan diperbarui selama
+proses berjalan.
+
+SUMBER DOKUMENTASI
+anggota2/dokumentasi/hasil-pengujian.md
