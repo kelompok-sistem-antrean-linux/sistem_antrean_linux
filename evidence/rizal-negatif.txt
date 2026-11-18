@@ -1,0 +1,5 @@
+=== UJI NEGATIF RIZAL ===
+[ERROR] Pekerjaan 'script_ilegal.sh' tidak terdaftar dalam whitelist!
+exit whitelist: 2
+[ERROR] Parameter '5;ls' tidak valid (wajib angka 1-60).
+exit injeksi: 3

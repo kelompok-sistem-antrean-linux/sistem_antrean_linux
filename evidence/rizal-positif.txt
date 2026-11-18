@@ -1,0 +1,3 @@
+=== UJI POSITIF RIZAL ===
+[OK] Pekerjaan berhasil masuk antrean: JOB_20261118_163633_159761414 (Status: WAITING)
+exit: 0
