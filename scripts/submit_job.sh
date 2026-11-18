@@ -28,7 +28,7 @@ JOB_ID=$JOB_ID
 JOB_NAME=$JOB_NAME
 PARAM=$PARAM
 SUBMITTER=$USER
-SUBMIT_TIME=$(date '+%F %T')
+SUBMIT_TIME="$(date '+%F %T')"
 TICKET
 
 echo "$JOB_ID,$JOB_NAME,$PARAM,WAITING,-,-,$(date '+%F %T'),-" >> "$STATUS_DB"
