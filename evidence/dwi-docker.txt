@@ -1,33 +1,39 @@
+=== UJI DOCKER READ-ONLY ===
 ==================================================================
 LAPORAN RINGKASAN ANTREAN PEKERJAAN & MONITORING PROSES (PROYEK 5B)
-Waktu Cetak   : 2026-11-18 15:30:26
+Waktu Cetak : 2026-11-18 22:30:22
 Kernel & Host : Linux 6.18.58.1-microsoft-standard-WSL2 x86_64
 ==================================================================
 
 [1] STATISTIK ANTREAN
-Menunggu (WAITING)       : 0
-Berhasil (SUCCESS)       : 0
-0
-Timeout (TIMEOUT_KILLED) : 0
-0
-Gagal (FAILED)           : 0
-0
+Menunggu (WAITING) : 0
+Berhasil (SUCCESS) : 1
+Timeout (TIMEOUT_KILLED) : 1
+Gagal (FAILED) : 1
 
 [2] RIWAYAT STATUS EKSEKUSI
-JOB_ID  JOB_NAME  PARAM  STATUS  PID  EXIT_CODE  START_TIME  END_TIME
+JOB_ID                         JOB_NAME           PARAM  STATUS          PID   EXIT_CODE  START_TIME           END_TIME
+JOB_20261118_223015_744790263  hitung_prima.sh    2      WAITING         -     -          2026-11-18 22:30:15  -
+JOB_20261118_223015_781914003  simulasi_gagal.sh  1      WAITING         -     -          2026-11-18 22:30:15  -
+JOB_20261118_223015_817594502  simulasi_lama.sh   10     WAITING         -     -          2026-11-18 22:30:15  -
+JOB_20261118_223015_744790263  hitung_prima.sh    2      SUCCESS         1883  0          2026-11-18 22:30:15  2026-11-18 22:30:17
+JOB_20261118_223015_781914003  simulasi_gagal.sh  1      FAILED          1981  42         2026-11-18 22:30:17  2026-11-18 22:30:18
+JOB_20261118_223015_817594502  simulasi_lama.sh   10     TIMEOUT_KILLED  1990  124        2026-11-18 22:30:18  2026-11-18 22:30:22
 
 [3] PEMANTAUAN MEMORI & CPU HOST
                total        used        free      shared  buff/cache   available
-Mem:           7.4Gi       628Mi       6.6Gi       4.2Mi       364Mi       6.8Gi
+Mem:           7.4Gi       608Mi       6.6Gi       4.2Mi       385Mi       6.8Gi
 Swap:          2.0Gi          0B       2.0Gi
 
     PID    PPID USER     %CPU %MEM   RSS STAT COMMAND
-   1665       1 root      0.1  0.4 31328 Ssl  containerd
-    103       1 root      0.0  0.1 12212 Ss   systemd-udevd
-      1       0 root      0.0  0.2 15984 Ss   systemd
-   3175    3171 dwi       0.0  0.0  6124 Ss   bash
-   1797       1 root      0.0  0.7 54220 Ssl  dockerd
-    437     436 dwi       0.0  0.0  6180 Ss   bash
-     60       1 root      0.0  0.2 17212 S<s  systemd-journal
+    245       1 root      0.1  0.6 50472 Ssl  containerd
+      1       0 root      0.0  0.2 15504 Ss   systemd
+    323       1 root      0.0  1.0 84112 Ssl  dockerd
+     89       1 root      0.0  0.1 12088 Ss   systemd-udevd
+    163       1 root      0.0  0.3 29724 Ss   networkd-dispat
+    268       1 root      0.0  0.4 32756 Ssl  unattended-upgr
+     47       1 root      0.0  0.2 17724 S<s  systemd-journal
+exit docker baca: 0
 sh: can't create /data/laporan.txt: Read-only file system
+exit docker tulis: 1
 Files evidence/dwi-checksum-sebelum.txt and evidence/dwi-checksum-sesudah.txt are identical
