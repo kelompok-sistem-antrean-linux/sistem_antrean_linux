@@ -1,0 +1,8 @@
+queue/
+locks/
+logs/
+output/*.txt
+*.ova
+*.vdi
+.DS_Store
+Thumbs.db
