@@ -1,0 +1,24 @@
+BUKTI PENGUJIAN NEGATIF - ANGGOTA 2
+Sistem Antrean Linux
+
+1. Pengujian file lock
+   Worker pertama berhasil memperoleh lock.
+   Worker kedua ditolak ketika lock sedang digunakan.
+   Hasil: LULUS (akses bersamaan berhasil dicegah).
+
+2. Pengujian pekerjaan gagal dan retry
+   Pekerjaan disimulasikan gagal dengan exit code 7.
+   Status pekerjaan berubah menjadi failed.
+   Pekerjaan tetap berada di antrean setelah gagal.
+   Setelah script dipulihkan, pekerjaan berhasil diproses
+   ulang dan status akhirnya menjadi success dengan exit code 0.
+   Hasil: LULUS.
+
+KESIMPULAN
+Mekanisme lock mencegah worker lain menggunakan antrean
+secara bersamaan. Mekanisme retry memungkinkan pekerjaan
+yang gagal diproses kembali.
+
+SUMBER DOKUMENTASI
+anggota2/dokumentasi/hasil-pengujian.md
+anggota2/logs/
