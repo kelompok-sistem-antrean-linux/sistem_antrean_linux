@@ -1,0 +1,2 @@
+/home/dell/proyek-so-5b/queue/waiting/JOB_20261118_213212_542824173.job: line 5: 21:32:12: command not found
+[FIFO] Memproses antrean: JOB_20261118_213212_542824173 (hitung_prima.sh, param=4)

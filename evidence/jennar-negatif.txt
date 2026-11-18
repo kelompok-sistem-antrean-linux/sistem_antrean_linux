@@ -1,0 +1,2 @@
+[LOCKED] Worker lain (PID: ) sedang berjalan! Worker kedua ditolak.
+exit worker kedua: 99
