@@ -1,0 +1,9 @@
+/home/dell/proyek-so-5b/queue/waiting/JOB_20261118_211606_762945194.job: line 5: 21:16:06: command not found
+[FIFO] Memproses antrean: JOB_20261118_211606_762945194 (hitung_prima.sh, param=1)
+/home/dell/proyek-so-5b/queue/waiting/JOB_20261118_211606_786746485.job: line 5: 21:16:06: command not found
+[FIFO] Memproses antrean: JOB_20261118_211606_786746485 (hitung_prima.sh, param=2)
+JOB_ID,JOB_NAME,PARAM,STATUS,PID,EXIT_CODE,START_TIME,END_TIME
+JOB_20261118_211606_762945194,hitung_prima.sh,1,WAITING,-,-,2026-11-18 21:16:06,-
+JOB_20261118_211606_786746485,hitung_prima.sh,2,WAITING,-,-,2026-11-18 21:16:06,-
+JOB_20261118_211606_762945194,hitung_prima.sh,1,DONE,-,0,2026-11-18 21:16:06,2026-11-18 21:16:07
+JOB_20261118_211606_786746485,hitung_prima.sh,2,DONE,-,0,2026-11-18 21:16:07,2026-11-18 21:16:09
