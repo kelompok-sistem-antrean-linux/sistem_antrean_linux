@@ -1,0 +1,10 @@
+========== STATUS SELURUH JOB ==========
+JOB_ID       JOB_NAME           PARAM  STATUS   PID    EXIT_CODE  START_TIME           END_TIME
+JOB_TEST001  hitung_prima.sh    2      SUCCESS  16446  0          2026-11-18 15:46:30  2026-11-18 15:46:32
+JOB_TEST002  simulasi_gagal.sh  1      FAILED   16485  42         2026-11-18 15:49:34  2026-11-18 15:49:35
+
+BUKTI TIKET FAILED:
+total 8
+drwxr-xr-x  3 haikalirawan  staff   96 Nov 18 15:49 .
+drwxr-xr-x  6 haikalirawan  staff  192 Nov 18 15:38 ..
+-rw-r--r--  1 haikalirawan  staff   60 Nov 18 15:49 JOB_TEST002.job
