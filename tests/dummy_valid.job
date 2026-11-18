@@ -1,0 +1,3 @@
+JOB_ID="DUMMY-001"
+JOB_NAME="simulasi_tugas_normal"
+COMMAND="bash tests/dummy_task.sh"

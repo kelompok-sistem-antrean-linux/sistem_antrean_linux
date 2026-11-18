@@ -1,0 +1,3 @@
+JOB_ID="DUMMY-ERR"
+JOB_NAME="simulasi_perintah_ilegal"
+COMMAND="rm -rf /tmp/ilegal_test"
