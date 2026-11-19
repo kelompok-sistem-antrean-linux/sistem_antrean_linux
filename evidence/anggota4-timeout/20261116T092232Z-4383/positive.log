@@ -1,0 +1,3 @@
+[2026-11-16T09:22:32Z] state=running timeout_seconds=5
+PEKERJAAN_POSITIF_SELESAI
+[2026-11-16T09:22:33Z] state=succeeded exit_status=0 duration_seconds=1

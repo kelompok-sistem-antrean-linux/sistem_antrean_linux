@@ -1,0 +1,10 @@
+state=timed_out
+timeout_seconds=2
+supervisor_pid=4416
+job_pid=4418
+exit_status=124
+start_utc=2026-11-16T09:22:33Z
+end_utc=2026-11-16T09:22:35Z
+duration_seconds=2
+timeout_signal=TERM
+kill_after_seconds=3

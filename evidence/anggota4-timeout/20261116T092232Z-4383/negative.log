@@ -1,0 +1,3 @@
+[2026-11-16T09:22:33Z] state=running timeout_seconds=2
+PEKERJAAN_NEGATIF_DIMULAI
+[2026-11-16T09:22:35Z] state=timed_out exit_status=124 duration_seconds=2

@@ -1,0 +1,10 @@
+state=succeeded
+timeout_seconds=5
+supervisor_pid=4396
+job_pid=4398
+exit_status=0
+start_utc=2026-11-16T09:22:32Z
+end_utc=2026-11-16T09:22:33Z
+duration_seconds=1
+timeout_signal=TERM
+kill_after_seconds=3
